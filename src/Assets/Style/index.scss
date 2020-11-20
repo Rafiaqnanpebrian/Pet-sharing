@@ -1,0 +1,228 @@
+@import '~antd/dist/antd.css';
+
+//Template
+.site-layout-content {
+    background: #fff;
+    padding: 24px;
+    min-height: 500px;
+    min-width: 200px;
+    text-align: center;
+    font-size: 35px;
+  }
+
+.listcard{
+    display: flex;
+    flex-direction: row;
+}  
+
+.carouselitem{
+    background: #364d79;
+    height: 300px;
+    line-height: 300px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn-login{
+    margin: 20px
+}
+
+.search{
+    width: 500px;
+    height: 40px;
+    margin: auto;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+}
+
+.footer{
+    text-align: center;
+    background-color: #2E2C28;
+    color: white;
+}
+
+
+.profilecard{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    width: 650px;
+    margin-bottom: 15px;
+    box-shadow: 3px 5px #cfcfcf;
+}
+
+.event-card-home{
+    border-radius: 10px;
+    width: 400px;
+    height: 100px;
+    box-shadow: 3px 5px #cfcfcf;
+    background: white; 
+    right: -30px;
+    margin-top: 50px;
+}
+
+.settingcard{
+    border-radius: 10px;
+    width: 650px;
+    margin-bottom: 15px;
+    box-shadow: 3px 5px #cfcfcf;
+}
+
+.selectGender{
+    width: 250px;
+    margin-bottom: 20px;
+}
+
+.textAddPost{
+    color:black;
+    width: 500px;
+}
+
+.textPost{
+    margin-top: 20px;
+}
+
+.btnShare{
+    align-self: flex-end;
+    background:#ff5722;
+    color: white;
+    border-radius: 5px;
+}
+
+//Login
+.layoutLogin{
+    justify-content: center;
+    align-items: center;
+    background: #00BCF1;
+}
+
+.peopleWithPet{
+    width: 792px;
+    height: 695px;
+}
+
+.petLogo{
+    width: 544px;
+    height: 104px;
+}
+
+.cardLoginPosition{
+    justify-content: center; 
+    display: flex;
+}
+
+.cardLogin{
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    margin-top: 30px;
+}
+
+.textMasuk{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.textUnderMasuk{
+    color:#BFBFBF;
+}
+
+.btnCardLogin{
+    display: grid;
+}
+
+.btnLogin{
+    background:#ff5722 ;
+    color: white;
+    border-radius: 7px;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px;
+}
+
+.btnToRegister{
+    background:white ;
+    color: #ff5722;
+    border-radius: 7px;
+    width: 250px;
+    height: 35px;
+    border-color:#ff5722 ;
+}
+
+//home
+.formAddShare{
+    display: flex;
+    width: 95%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (min-width: 320px){
+    .content{
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+
+    .postcard{
+        border-radius: 10px;
+        width: 325px;
+        margin-bottom: 15px;
+        box-shadow: 3px 5px #cfcfcf;
+    }
+
+    
+    .add-post-card{
+        border-radius: 10px;
+        width: 325px;
+        height: 90px;
+        margin-bottom: 15px;
+        box-shadow: 3px 5px #cfcfcf;
+        background: white; 
+        color: white;
+    }
+
+    .add-event-card{
+        border-radius: 10px;
+        width: 325px;
+        margin-bottom: 15px;
+        box-shadow: 3px 5px #cfcfcf;
+        background: white; 
+        color: white;
+    }
+}
+
+@media (min-width: 1024px){
+    .content{
+        margin-left: 285px;
+        margin-top: 80px;
+    }
+
+    .postcard{
+        border-radius: 10px;
+        width: 650px;
+        margin-bottom: 15px;
+        box-shadow: 4px 5px #cfcfcf;
+    }
+
+    .add-post-card{
+        border-radius: 10px;
+        width: 650px;
+        margin-bottom: 15px;
+        box-shadow: 3px 4px #cfcfcf;
+        background: white; 
+        color: white;
+    }
+
+    .add-event-card{
+        border-radius: 10px;
+        width: 650px;
+        height: 60px ;
+        margin-bottom: 15px;
+        box-shadow: 3px 4px #cfcfcf;
+        background: #FD6738; 
+        color: white;
+    }
+}
